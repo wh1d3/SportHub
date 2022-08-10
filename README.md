@@ -2,6 +2,8 @@
 
 ## NOT COMMERCIAL!!!
 
+## Discription : It`s myfirst site, don't criticize too much
+
 ### NavBar :
 * Home
 * About Us
