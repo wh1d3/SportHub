@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&display=swap');
+
+body {
+	font-family: 'Source Sans Pro';
+	font-size: 16px;
+	line-height: 1.5;
+	color: #ffffff;
+}
+
+.notification {
+	position: fixed;
+	z-index: 1001;
+	left: -400px;
+	bottom: 20px;
+	opacity: 0;
+	width: 300px;
+	height: 135px;
+	box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.4);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	transition: all 0.5s ease;
+	display: flex;
+	background-image: url('/all_index_img/index_img/nike-logo.png');
+}
+
+.notification.blue {
+	background-image: url('/all_index_img/index_img/nike-logo.png');
+}
+
+.notification.red {
+	background-image: url('/all_index_img/index_img/nike-logo.png');
+}
+
+.notification.go {
+	left: 20px;
+	opacity: 1;
+}
+
+.notification .left_noth_prem {
+	width: 70%;
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.notification .left_noth_prem .tit {
+	font-size: 15px;
+	font-weight: 400;
+	color: black;
+	line-height: 1.2;
+}
+
+.notification .left_noth_prem .descr {
+	font-weight: 300;
+	font-size: 14px;
+	color: black;
+	margin: 0.2em 0;
+}
+
+.notification .left_noth_prem > .btns {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-ms-align-items: center;
+	align-items: center;
+	justify-content: space-between;
+	margin-top: 6px;
+}
+
+.notification .left_noth_prem > .btns a {
+	border-radius: 3px;
+	padding: 4px 0;
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	font-size: 12px;
+	transition: all 0.4s ease-in-out;
+	display: block;
+	width: 47%;
+	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.btns a {
+	color: white;
+}
+
+.notification .left_noth_prem > .btns a:hover {
+	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+	transform: scale(1.18);
+}
+
+.notification .left_noth_prem > .btns a.youtube_bg {
+	background: black;
+}
+
+.notification .left_noth_prem > .btns a.vk_bg {
+	background-image: linear-gradient(45deg, #00b4db, #0083b0);
+}
+
+.notification .left_noth_prem > .btns a.inst_bg {
+	background-image: linear-gradient(45deg, #f82c8d, #a826e0);
+}
+
+.notification .right_noth_prem {
+	width: 30%;
+	display: -webkit-flex;
+	display: -ms-flex;
+	display: flex;
+	padding: 10px;
+}
+
+.notification .right_noth_prem > img {
+	width: 75px;
+	height: auto;
+	display: block;
+	margin: auto;
+}

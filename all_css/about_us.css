@@ -1,0 +1,155 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html, body {
+	height: 100%;
+}
+
+.footer {
+	min-height: 100px;
+}
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
+}
+
+.content {
+	flex: 1;
+}
+
+.About_Us {
+    background: white;
+    margin-bottom: 10%;
+}
+
+.About_Us_Photo {
+    margin-top: 8%;
+    margin-left: 8%;
+}
+
+.About_Us_Main {
+    position: absolute;
+    width: 942px;
+    height: 529px;
+    left: 122px;
+    top: 250px;
+    font-family: Poppins;
+    font-size: 40px;
+    color: black;
+}
+
+.About_Us_First_Photo {
+    position: absolute;
+    left: 1107px;
+    top: 196px;
+}
+
+.About_Us_First {
+    font-family: Poppins;
+    color: black;
+    position: absolute;
+    width: 475px;
+    height: 180px;
+    left: 1227px;
+    top: 168px;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.About_Us_Two_Photo {
+    position: absolute;
+    left: 1112px;
+    top: 489px;
+}
+
+.About_Us_Two {
+    position: absolute;
+    width: 475px;
+    height: 181px;
+    left: 1227px;
+    top: 467px;
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 24px;
+    color: black;
+}
+
+.About_Us_Three_Photo {
+    position: absolute;
+    left: 1111px;
+    top: 783px;
+}
+
+.About_Us_Three {
+    position: absolute;
+    width: 476px;
+    height: 180px;
+    left: 1227px;
+    top: 762px;
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 24px;
+    color: black;
+}
+
+@media only screen and (max-width: 800px) {
+    section {
+        max-width: 600px;
+    }
+    .About_Us_Main {
+        left: 50px;
+        font-size: 20px;
+        max-width: 500px;
+    }
+
+    .About_Us_Photo {
+        max-width: 400px;
+        margin-top: 12%;
+        margin-left: 5%;
+    }
+
+    .About_Us_First_Photo {
+        width: 1px;
+        height: 1px;
+        left: 1px;
+        visibility: hidden;
+    }
+    
+    .About_Us_First {
+        top: 10px;
+        font-size: 3px;
+        left: 1px;
+        visibility: hidden;
+    }
+    
+    .About_Us_Two_Photo {
+        width: 1px;
+        height: 1px;
+        left: 1px;
+        visibility: hidden;
+    }
+    
+    .About_Us_Two {
+        top: 10px;
+        font-size: 3px;
+        left: 1px;
+        visibility: hidden;
+    }
+    
+    .About_Us_Three_Photo {
+        width: 1px;
+        height: 1px;
+        left: 1px;
+        visibility: hidden;
+    }
+    
+    .About_Us_Three {
+        top: 10px;
+        font-size: 3px;
+        left: 1px;
+        visibility: hidden;
+    }
+}

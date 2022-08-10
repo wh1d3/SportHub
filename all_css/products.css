@@ -1,0 +1,230 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+
+}
+
+html, body {
+	height: 100%;
+}
+
+.footer {
+	min-height: 100px;
+}
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+.content {
+	flex: 1;
+}
+
+.Shoes {
+	margin-bottom: 5%;
+}
+
+.Shoes h1 {
+	padding-left: 5%;
+	padding-top: 2%;
+	font-family: Poppins;
+	font-weight: 700;
+	color: black;
+}
+
+.Product_1 {
+	margin-top: 1%;
+	width: 286px;
+	height: 415px;
+	margin-left: 5%;
+	border-radius: 4px;
+	border: 1px #D9D9D9 solid;
+}
+
+.Product_Photo_Main {
+	max-width: 266px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+.Product_1_Tittle {
+	font-family: 'Noto Sans';
+	font-weight: 700;
+	font-size: 14px;
+	color: #4D4D4D;
+	text-align: center;
+	
+}
+
+.Rating_Product_Photo {
+	margin-left: 11%;
+	width: 20px;
+	height: 20px;
+}
+
+.Rating_Product {
+	margin-left: 11%;
+	font-family: Noto Sans;
+	font-size: 14px;
+	font-weight: 700;
+    align-items: center;
+    justify-content: center;
+	color: #5D71DD;
+}
+
+.Feedback_product {
+	margin-top: -10%;
+	margin-left: 20%;
+	color: #808080;
+	font-weight: 400;
+	font-family: Noto Sans;
+	font-size: 14px;
+}
+
+.Articul_Product {
+	padding-top: 1%;
+	color: #808080;
+	margin-left: 11%;
+	font-size: 14px;
+	font-family: Noto Sans;
+}
+
+.Nayavnist_Product {
+	color: #808080;
+	margin-left: 11%;
+	font-size: 14px;
+	font-family: Noto Sans;	
+}
+
+.Cena_Product1 {
+	padding-top: 5%;
+	color: #4D4D4D;
+	margin-left: 11%;
+	font-size: 24px;
+	font-family: 'Noto Sans';	
+	font-weight: 700;
+}
+
+.Cena_Old_Product {
+	color: #808080;
+	position: absolute;
+	top: 507px;
+	left: 230px;
+	font-size: 12px;
+	font-family: 'Noto Sans';	
+}
+
+.Button_Buy_Product {
+	height: 45px;
+	width: 246px;
+
+}
+
+.Button_Buy_Product button {
+	border: none;
+	margin-left: 6%;
+	margin-top: 5%;
+	width: 246px;
+	height: 45px;
+	background: #5D71DD;
+	border-radius: 4px;
+	font-family: 'Noto Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 20px;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+.Product_2 {
+	margin-top: -21.8%;
+	width: 286px;
+	height: 415px;
+	margin-left: 23%;
+	border-radius: 4px;
+	border: 1px #D9D9D9 solid;
+}
+
+.Product_3 {
+	margin-top: -21.8%;
+	width: 286px;
+	height: 415px;
+	margin-left: 41%;
+	border-radius: 4px;
+	border: 1px #D9D9D9 solid;
+}
+
+.Cena_Old_Product2 {
+	color: #808080;
+	position: absolute;
+	top: 507px;
+	left: 570px;
+	font-size: 12px;
+	font-family: 'Noto Sans';	
+}
+
+.Cena_Old_Product3 {
+	color: #808080;
+	position: absolute;
+	top: 507px;
+	left: 910px;
+	font-size: 12px;
+	font-family: 'Noto Sans';	
+}
+
+.Product_4 {
+	margin-top: -21.8%;
+	width: 286px;
+	height: 415px;
+	margin-left: 59%;
+	border-radius: 4px;
+	border: 1px #D9D9D9 solid;
+}
+
+.Product_5 {
+	margin-top: -21.8%;
+	width: 286px;
+	height: 415px;
+	margin-left: 77%;
+	border-radius: 4px;
+	border: 1px #D9D9D9 solid;
+}
+
+.Cena_Old_Product11 {
+	color: #808080;
+	position: absolute;
+	top: 1017px;
+	left: 230px;
+	font-size: 12px;
+	font-family: 'Noto Sans';	
+}
+
+.Cena_Old_Product22 {
+	color: #808080;
+	position: absolute;
+	top: 1017px;
+	left: 570px;
+	font-size: 12px;
+	font-family: 'Noto Sans';	
+}
+
+.Cena_Old_Product33 {
+	color: #808080;
+	position: absolute;
+	top: 1017px;
+	left: 910px;
+	font-size: 12px;
+	font-family: 'Noto Sans';	
+}
+
+.Sorry_No_Products {
+	display: block;
+	width: 100vh;
+	margin-left: 45%;
+	margin-right: 45%;
+}

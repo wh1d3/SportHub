@@ -1,0 +1,151 @@
+footer {
+    background-color: #24252a;
+    height: 425px;
+    width: 100%;
+}
+
+.Footer_Logo {
+    position: absolute;
+    width: 140px;
+    height: 29px;
+    left: 163px;
+    margin-top: 7.5%;
+}
+
+.Footer_About {
+    position: absolute;
+    left: 20%;
+    margin-top: 6.7%;
+    width: 337px;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+.Footer_Number {
+    position: absolute;
+    font-family: 'Poppins';
+    font-weight: 400;
+    margin-top: 16.7%;
+    left: 20%;
+    font-size: 14px;
+    border-bottom: 1px solid #FFFFFF;
+    color: white;
+    text-decoration: none;
+}
+
+.Footer_Mail {
+    position: absolute;
+    left: 20%;
+    margin-top: 18%;
+    font-family: 'Poppins';
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    border-bottom: 1px solid #FFFFFF;
+}
+
+.Footer_Navlinks {
+    margin-top: 6.7%;
+    position: absolute;
+    left: 55%;
+    list-style: none;
+}
+
+.Footer_Navlinks a {
+    font-family: 'Poppins';
+    color: gainsboro;
+    font-weight: 400;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.Footer_Navlinks a:hover {
+    border-bottom: gainsboro 1px solid;
+}
+
+.Footer_Lorem {
+    font-family: 'Poppins';
+    color: gainsboro;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 18%;
+    position: absolute;
+    left: 55%;
+}
+
+.Footer_Sociallinks {
+    margin-top: 6.7%;
+    position: absolute;
+    left: 70.35%;
+}
+
+.Footer_Sociallinks li {
+    list-style: none;
+}
+
+.Footer_Sociallinks a {
+    color: gainsboro;
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.Footer_Sociallinks a:hover {
+    border-bottom: gainsboro 1px solid;
+}
+
+.scroll_up {
+    position: absolute;
+    left: 85%;
+    margin-top: 4%;
+}
+
+.Footer_Creater {
+    visibility: hidden;
+}
+
+@media only screen and (max-width: 800px) {
+    footer {
+        height: 550px;
+        max-width: 100vh;
+    }
+    .Footer_Logo {
+        left: 15%;
+    }
+    .Footer_About {
+        margin-top: 30%;
+        left: 15%;
+    }
+    .Footer_Lorem {
+        margin-top: 43%;
+        left: 15%;
+    }
+    .Footer_Mail {
+        margin-top: 21%;
+        left: 15%;
+    }
+    .Footer_Number {
+        left: 15%;
+    }
+    .Footer_Navlinks {
+        left: 43%;
+    }
+    .Footer_Sociallinks {
+        left: 65%;
+    }
+    .Footer_Creater {
+        visibility: visible;
+        font-family: 'Poppins';
+        color: gainsboro;
+        font-weight: 400;
+        font-size: 16px;
+        position: absolute;
+        margin-top: 70%;
+        left: 37%;
+    }
+}

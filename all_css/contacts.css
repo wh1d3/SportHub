@@ -1,0 +1,215 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html, body {
+	height: 100%;
+}
+
+.footer {
+	min-height: 100px;
+}
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+.content {
+	flex: 1;
+}
+
+.Contact_Us_Background {
+	position: absolute;
+	width: 247px;
+	height: 879px;
+	left: 24px;
+	top: 118px;
+	border-radius: 11px;
+}
+
+.Contact_Form_Text {
+	position: absolute;
+	width: 166px;
+	height: 36px;
+	left: 649.5px;
+	top: 186px;
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 36px;
+	color: #FD8558;
+}
+
+.Contact_Form_Description {
+	position: absolute;
+	width: 309.56px;
+	height: 96px;
+	left: 600px;
+	top: 231.43px;
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	color: #000000;
+}
+
+.Real_Contact_Form {
+	width: 310px;
+	height: 500px;
+}
+
+.Text_Name {
+	position: absolute;
+	height: 18px;
+	left: 605px;
+	top: 345.74px;
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 18px;
+	color: #000000;	
+}
+
+.Input_Name {
+	position: absolute;
+	width: 309.56px;
+	height: 37.45px;
+	left: 600px;
+	top: 367.04px;
+	border: 1px solid #FD8558;
+	border-radius: 10px;
+}
+
+.Text_Mail {
+	position: absolute;
+	left: 605px;
+	top: 425px;
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 18px;
+	color: #000000;
+}
+
+.Input_Mail {
+	position: absolute;
+	width: 309.56px;
+	height: 37.45px;
+	left: 600px;
+	top: 448.49px;
+	border: 1px solid #FD8558;
+	border-radius: 10px;
+}
+
+.Text_Order {
+	position: absolute;
+	left: 605px;
+	top: 504px;
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 18px;
+	color: #000000;
+}
+
+.Input_Order {
+	position: absolute;
+	width: 309.56px;
+	height: 37.45px;
+	left: 600px;
+	top: 529.94px;
+	border: 1px solid #FD8558;
+	border-radius: 10px;
+}
+
+.Text_Topic {
+	position: absolute;
+	left: 605px;
+	top: 587px;
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 18px;
+	color: #000000;
+}
+
+.Input_Topic {
+	position: absolute;
+	width: 309.56px;
+	height: 37.45px;
+	left: 600px;
+	top: 611.4px;
+	border: 1px solid #FD8558;
+	border-radius: 10px;
+}
+
+.Text_Message {
+	position: absolute;
+	left: 610px;
+	top: 669px;
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 18px;
+	color: #000000;
+}
+
+.Input_Message {
+	position: absolute;
+	width: 309.56px;
+	height: 158.24px;
+	left: 600px;
+	top: 692.09px;
+
+	border: 1px solid #FD8558;
+	border-radius: 10px;
+}
+
+.Send_Form {
+	position: absolute;
+	width: 309.56px;
+	height: 37.45px;
+	left: 605px;
+	top: 877.16px;
+	background: #FD8558;
+	border-radius: 10px;
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+.Contact_Us_Background_Two {
+	position: absolute;
+	width: 482px;
+	height: 880px;
+	left: 1400px;
+	top: 119px;
+	border-radius: 11px;
+}
+
+@media screen and (max-width: 800px) {
+	.Contact_Us_Background {
+        visibility: hidden;
+	}
+	.Contact_Us_Background_Two {
+        visibility: hidden;
+	}
+	.Contact_Form {
+		max-width: 600px;
+		margin-left: 1%;
+	}
+}

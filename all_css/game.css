@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    max-width: 288px;
+    max-height: 512px;
+}
+
+@media screen and (max-height: 800px) {
+    body {
+
+    }
+  }
+.game_exit a { 
+    font-family: Montserrat, sans-serif;
+    text-decoration: none;
+}
