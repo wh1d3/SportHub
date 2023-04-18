@@ -1,9 +1,5 @@
 # SportHub (Pet-Project)
 
-## NOT COMMERCIAL!!!
-
-### P/S : It`s my first site, don't criticize too much
-
 ![image](https://user-images.githubusercontent.com/109623544/184006707-ecebb120-7018-4cc5-9bf0-c067403d265e.png)
 ![image](https://user-images.githubusercontent.com/109623544/184007075-b150605a-fef0-443b-bbe9-dd0c0e67861c.png)
 ![image](https://user-images.githubusercontent.com/109623544/184007165-f523c8e9-86ed-4828-a6c0-8041ee3fe9ba.png)
