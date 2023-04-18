@@ -1,4 +1,4 @@
-# SportHub (Pet-Project)
+# SportHub
 
 ![image](https://user-images.githubusercontent.com/109623544/184006707-ecebb120-7018-4cc5-9bf0-c067403d265e.png)
 ![image](https://user-images.githubusercontent.com/109623544/184007075-b150605a-fef0-443b-bbe9-dd0c0e67861c.png)
